@@ -21,10 +21,6 @@ function apiProxy(host) {
 app.use(express.static('public'));
 app.use(apiProxy('http://www.medalbot.com'));
 
-app.get('*', function (req, res) {
-  apiProxy.web(req, res);
-});
-
 app.listen(port, function () {
   console.log('app is listening on port: ' + port);
 });
