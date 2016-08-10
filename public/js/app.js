@@ -3,10 +3,7 @@ $(document).foundation();
     e.preventDefault();
     $.ajax({
       type: 'GET',
-      jsonp: 'jsonp',
-      contentType: 'application/json',
-      url: 'http://www.medalbot.com/api/v1/medals/united-states',
-      dataType: 'jsonp',
+      url: '/api/v1/medals/united-states',
       success: function(data) {
         console.log(data);
       }

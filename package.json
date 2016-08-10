@@ -10,7 +10,8 @@
     "gulp-sass": "^2.1.0"
   },
   "scripts": {
-    "start": "gulp",
+    "start": "node server.js",
+    "watch": "gulp",
     "build": "gulp sass"
   },
   "repository": {
@@ -25,6 +26,8 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "gulp-autoprefixer": "^3.1.0"
+    "express": "^4.14.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "http-proxy": "^1.14.0"
   }
 }
