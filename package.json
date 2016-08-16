@@ -1,13 +1,16 @@
 {
-  "name": "foundation-sites-template",
+  "name": "olympic-medal-counts",
   "version": "1.0.0",
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "Basic Medal Count API APP",
   "main": "gulpfile.js",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-load-plugins": "^1.1.0",
     "gulp-sass": "^2.1.0"
+  },
+  "engines": {
+    "node": "0.12.2"
   },
   "scripts": {
     "start": "node server.js",
@@ -16,13 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zurb/foundation-sites-template.git"
+    "url": "https://github.com/ayezee33/Olympic-Medal-Counts.git"
   },
   "bugs": {
-    "url": "https://github.com/zurb/foundation-sites/issues",
-    "email": "foundation@zurb.com"
+    "url": "https://github.com/ayezee33/Olympic-Medal-Counts/issues"
   },
-  "author": "ZURB <foundation@zurb.com>",
+  "author": "AyeZee33 <alexzerbach.com>",
   "license": "MIT",
   "private": true,
   "dependencies": {

@@ -6,6 +6,7 @@ This is a work in progress and not 100% functional right now. My installation in
 Requirements
 - nodejs
 - bower
+
 ####How to install
 git clone
 npm install
